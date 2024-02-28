@@ -6,48 +6,62 @@
     <title>Student Information Form</title>
     <style>
         body{
-            background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701385538.jpg);
+            background-image: url(https://i.pinimg.com/736x/c4/00/4e/c4004e7f1b6e0c9dde1751456e504791.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
         }
         h1{
-            color: aliceblue;
+            color: #222f2f;
             text-align: center;
+            margin-top: 50px;
+            text-decoration: underline;
         }
         form {
             width:fit-content; 
-            padding-left: 10%;
-            padding-right: 10%;
-            padding-top: 10%;
-            padding-bottom: 10%;
+            padding-left: 50px;
+            padding-right: 50px;
+            padding-top: 10px;
+            padding-bottom: 10px;
             border: px solid black ;
-            border-radius: 5px;
-            background-color:whitesmoke;
-            margin-left: 50px;
-            opacity: 0.85;
+            background-color: #dbe1e3;
+            border-radius: 10px;
+            margin-left: 35%;
+            margin-top: 100px;
+            opacity: 0.75;
+            align-items: center;
+        }
+        form:hover{
+            background-color: #dbe1e3;
+            opacity: 0.9;
         }
         form label{
-            width: 120px;
+            width: 100px;
             text-align:right;
         }
         .button{
-            margin-left:75px;
+            margin-left:150px;
+            align-self: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
             
         }
     </style>
 </head>
 <body>
-    <h1>Student Information Form</h1>
+
     <form>
+        <h1 >Student Information Form</h1><br><br>
         <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br>
+        <input type="text" id="name" name="name"><br><br>
         <label for="dob">Date of Birth:</label>
-        <input type="date" id="dob" name="dob"><br>
+        <input type="date" id="dob" name="dob"><br><br>
         <label for="address">Address:</label>
-        <textarea id="address" name="address"></textarea><br>     
+        <textarea id="address" name="address"></textarea><br><br>    
         <label for="gender">Gender:</label>
         <input type="radio" id="male" name="gender" value="male">
         <label for="male">Male</label>
         <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
+        <label for="female">Female</label><br><br>
         <label for="subjects">Subjects:</label>
         <input type="checkbox" id="maths" name="subjects" value="maths">
         <label for="maths">Maths</label>
@@ -56,13 +70,13 @@
         <input type="checkbox" id="physics" name="subjects" value="physics">
         <label for="physics">Physics</label>
         <input type="checkbox" id="chemistry" name="subjects" value="chemistry">
-        <label for="chemistry">Chemistry</label><br>
-        <label for="rollno">roll:</label>
-        <input type="number" id="rollno" name="rollno"><br>
-        <label for="contact">contact No:</label>
-        <input type="tel" id="contact" name="contact"><br>
-        <label for="nationality">nationality:</label>
-        <input type="text" id="nationality" name="nationality"><br>
+        <label for="chemistry">Chemistry</label><br><br>
+        <label for="rollno">Roll No:</label>
+        <input type="number" id="rollno" name="rollno"><br><br>
+        <label for="contact">Contact No:</label>
+        <input type="tel" id="contact" name="contact"><br><br>
+        <label for="nationality">Nationality:</label>
+        <input type="text" id="nationality" name="nationality"><br><br>
         <input class="button" type="submit" value="submit" >
     </form>
 </body>
